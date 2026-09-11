@@ -36,8 +36,8 @@ const Mempelai = () => {
 
         {/* Bride Text */}
         <div className="flex flex-col items-center text-center mb-16 w-full" data-aos="fade-up">
-          <h3 className="text-[2.5rem] text-[#a87f3f] mb-[-5px] font-cursive">Virgia</h3>
-          <h2 className="text-[2rem] text-[#463e34] font-handwriting font-bold tracking-wide mb-2">Virgia</h2>
+          <h3 className="text-[2.5rem] text-[#a87f3f] mb-[-5px] font-cursive">Virgi</h3>
+          <h2 className="text-[2rem] text-[#463e34] font-handwriting font-bold tracking-wide mb-2">Virgia Alan Shndi</h2>
           <div className="w-56 h-[1.5px] bg-[#d4a15f] mb-3"></div>
           <p className="font-handwriting font-bold text-xs mb-1 text-[#6a6055]">Putri</p>
           <p className="font-handwriting text-xl text-[#6a6055]">Bapak Suherlan</p>
@@ -57,7 +57,7 @@ const Mempelai = () => {
         {/* Groom Text */}
         <div className="flex flex-col items-center text-center mb-10 w-full" data-aos="fade-right">
           <h3 className="text-[2.5rem] text-[#a87f3f] mb-[-5px] font-cursive">Kujeng</h3>
-          <h2 className="text-[2rem] text-[#463e34] font-handwriting font-bold tracking-wide mb-2">Kujeng</h2>
+          <h2 className="text-[2rem] text-[#463e34] font-handwriting font-bold tracking-wide mb-2">Ujang Muhammad Padilah</h2>
           <div className="w-56 h-[1.5px] bg-[#d4a15f] mb-3"></div>
           
 

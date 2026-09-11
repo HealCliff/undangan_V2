@@ -5,6 +5,7 @@ import HeroQuote from './components/HeroQuote';
 import Mempelai from './components/Mempelai';
 import Acara from './components/Acara';
 import WeddingGift from './components/WeddingGift';
+import AutoScroll from './components/AutoScroll';
 
 import './App.css';
 import AOS from 'aos';
@@ -76,6 +77,9 @@ function App() {
             </footer>
           </div>
         </div>
+
+        {/* Tombol scroll otomatis - hanya muncul setelah undangan dibuka */}
+        {isOpened && <AutoScroll />}
 
       </main>
     </div>
