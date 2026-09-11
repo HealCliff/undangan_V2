@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 const accounts = [
-  { provider: 'DANA', number: '085794543276', owner: 'Ujang Muhamad' },
+  { provider: 'DANA', number: '085794543276', owner: 'Ujang Muhammad' },
   { provider: 'BNI', number: '1848454205', owner: 'Virgia Alan Shndi' },
 ];
 const giftAddress = 'Kp. Tarikolot RT. 01 RW. 04, Desa Cidahu, Kecamatan Cidahu';
