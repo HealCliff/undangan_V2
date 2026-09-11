@@ -1,0 +1,35 @@
+/* Import Great Vibes (Headings), Caveat (Handwriting), and Inter (Body) from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&family=Great+Vibes&family=Inter:wght@300;400;500;600&display=swap');
+
+@import "tailwindcss";
+
+@layer base {
+  /* Set standard body text */
+  body {
+    font-family: 'Inter', sans-serif;
+    @apply bg-slate-50 text-slate-800; /* Soft aesthetic defaults */
+  }
+
+  /* Automatically apply the cursive font to all standard headings */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Great Vibes', cursive;
+    font-weight: 400;
+  }
+}
+
+@layer utilities {
+  /* Utility class to force cursive font on non-heading elements if needed */
+  .font-cursive {
+    font-family: 'Great Vibes', cursive;
+  }
+  
+  /* Utility class to force sans font */
+  .font-sans {
+    font-family: 'Inter', sans-serif;
+  }
+
+  /* Utility class to force handwriting font */
+  .font-handwriting {
+    font-family: 'Caveat', cursive;
+  }
+}
